@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StockPulse</string>
+    <string name="NewAppDescription">StockPulse is an app which displays the latest stock related news</string>
+    <string name="imageContentDescription">Image</string>
+</resources>
