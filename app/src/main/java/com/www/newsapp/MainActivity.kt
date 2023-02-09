@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun goToNextPage():Boolean{
+        // If Internet is available then wait for 2s and then go to the next page
         if (checkForInternet(this)){
             val intent = Intent(this, NewsActivity::class.java)
             try{
